@@ -8,29 +8,34 @@ This machine learning project predicts hotel booking cancellations by analyzing 
 ## Project Architecture
 The project follows MLOps best practices with a modular pipeline architecture:
 
+# Project Structure: Accommodation_Reservation_Prediction
+
+```
 Accommodation_Reservation_Prediction/
-├── artifacts/ # Data and model artifacts
-│ ├── models/ # Trained machine learning models
-│ ├── processed/ # Preprocessed datasets
-│ └── raw/ # Raw input data
-├── config/ # Configuration files
-├── keys/ # API keys and credentials
-├── logs/ # Application logs
-├── mlruns/ # MLflow experiment tracking
-├── notebook/ # Jupyter notebooks for exploration
-├── pipeline/ # ML pipeline components
-├── project_env/ # Virtual environment
-├── src/ # Source code
-├── static/ # Static web assets
-├── templates/ # HTML templates
-├── utils/ # Utility functions
-├── .gitignore # Git ignore file
-├── application.py # Web application entry point
-├── Dockerfile # Docker configuration
-├── Jenkinsfile # CI/CD pipeline configuration
-├── README.md # Project documentation
-├── requirements.txt # Project dependencies
-└── setup.py # Package installation script
+├── artifacts/                  # Data and model artifacts
+│   ├── models/                # Trained machine learning models
+│   ├── processed/             # Preprocessed datasets
+│   └── raw/                   # Raw input data
+├── config/                    # Configuration files
+├── keys/                      # API keys and credentials
+├── logs/                      # Application logs
+├── mlruns/                    # MLflow experiment tracking
+├── notebook/                  # Jupyter notebooks for exploration
+├── pipeline/                  # ML pipeline components
+├── project_env/               # Virtual environment
+├── src/                       # Source code
+├── static/                    # Static web assets
+├── templates/                 # HTML templates
+├── utils/                     # Utility functions
+├── .gitignore                 # Git ignore file
+├── application.py             # Web application entry point
+├── Dockerfile                 # Docker configuration
+├── Jenkinsfile                # CI/CD pipeline configuration
+├── README.md                  # Project documentation
+├── requirements.txt           # Project dependencies
+└── setup.py                   # Package installation script
+```
+
 
 ## Technical Implementation
 
