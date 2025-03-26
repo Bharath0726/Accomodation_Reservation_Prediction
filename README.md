@@ -5,6 +5,9 @@
 ## Project Overview
 This machine learning project predicts hotel booking cancellations by analyzing various factors such as booking details, customer profiles, and hotel properties. The solution helps accommodation providers optimize their inventory management and revenue by anticipating cancellations before they occur.
 
+<img width="1273" alt="Screenshot 2025-03-26 at 8 19 01 AM" src="https://github.com/user-attachments/assets/3f34cb11-991b-40de-bd25-c6a44401f956" />
+
+
 ## Project Architecture
 The project follows MLOps best practices with a modular pipeline architecture:
 
